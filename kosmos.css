@@ -1,0 +1,56 @@
+
+body {
+    background-image: url("https://radioolsztyn.pl/wp-content/uploads/2017/05/Kosmos.jpg");
+    background-size: cover; /* Dostosowanie obrazu do rozmiaru okna przeglądarki */
+            background-repeat: no-repeat; /* Wyłącz powtarzanie obrazu */
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background-color: rgba(30, 30, 31, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+#space-facts, #space-image {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#space-image img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(30, 30, 31, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
